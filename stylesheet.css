@@ -1,0 +1,112 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-container {
+  width: min;
+  height: min;
+  position: relative;
+}
+
+#enter {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+
+  width: 250px;
+  border: 0;
+  outline: none;
+}
+
+#enter:focus {
+  outline: none;
+}
+
+.name-font {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+span {
+  display: inline-block;
+  line-height: 0.7;
+}
+
+.name-container {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+
+  display: none;
+}
+
+.name-helper {
+  position: absolute;
+  text-align: center;
+
+  display: none;
+
+  color: #fff;
+  font-size: 50px;
+}
+
+#name-main {
+  position: relative !important;
+  color: #333333;
+}
+
+#name-coder {
+  opacity: 0;
+}
+
+#name-gamer {
+  opacity: 0;
+}
+
+#o {
+  cursor: pointer;
+}
+
+#e1 {
+  cursor: pointer;
+}
+
+.c-ease {
+  -webkit-transition: color 0.3s, opacity 0.3s;
+  -moz-transition: color 0.3s, opacity 0.3s;
+  -o-transition: color 0.3s, opacity 0.3s;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+.bg-ease {
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
